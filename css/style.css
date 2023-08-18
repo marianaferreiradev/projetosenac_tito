@@ -45,7 +45,6 @@ h1 img{
     padding: 10px;
     background-color: #901D71;
     border-radius: 10px;
-    color: white;
     border: none;
     font-weight: 700;
     font-size: 25px;
@@ -153,16 +152,16 @@ footer{
 
 }
 
-/*CURSOS*/
+/*educadores*/
 
 .imagem_professor{
     width: 200px;
 }
 
 .professores{
-    width: 700;
-    margin: 0 autopx;
-    padding: 100px 0 150px 0;
+    width: 800;
+    margin: 0 0 0 460px;
+    padding: 100px 0 100px 0;
 }
 
 .professores li{
@@ -178,44 +177,49 @@ footer{
 
 .nomes_professores{
     font-family: roboto;
+    font-size: 20px;
     font-weight: 700;
     color: #ffffff;
 }
 
-.nomes_professores{
+
+.descricao{
     font-family: roboto;
-    font-size: 700;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 2;
 }
 
-/*sobre*/
-
-#pesquisa{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 38px;
+.anunci01{
+    text-align: center;
 }
-#buscar{
-    height: 20px;
-    width: 420px;
-    height: 28px;
-    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #13f78c, #0be6e6, #f700c5) border-box;
-	border-radius: 40px;
-	border: 3px solid transparent;
-	align-items: center; /*alinhar items dentro conteudo*/
-	font-size: 18px;
-	font-weight: bold;	
-	color: #10a87d;
-	padding: 1px;
-	cursor: pointer; 
-    margin-left: 999px;
+
+.anuncio_cursos{
+    text-align: center;
 }
-.buscar::placeholder{
-    position: relative;
-    left: 20px;}
 
-.menu_pagina2{
-    background-color: white;
+.anuncio_cursos{
+    font-family: roboto;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
 
+.botao_cursos{
+    margin: 0 50px 0px 70px;
+    padding: 10px;
+    background-color: #D9831A;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 40px 0;
+}
+
+
+.botao_cursos a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: roboto;
 }
 
